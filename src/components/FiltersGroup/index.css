@@ -1,0 +1,92 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-bar {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 3px;
+  align-items: center;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.in-box {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 10px;
+  padding-left: 16px;
+}
+
+.search-icon {
+  margin-right: 16px;
+  color: #475569;
+}
+
+.filter-head {
+  font-size: 20px;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.cat-item {
+  margin-bottom: 16px;
+}
+
+.cat-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.rat-item {
+  margin-bottom: 16px;
+}
+
+.rat-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.rat-pic {
+  width: 110px;
+}
+
+.rat-info {
+  color: #64748b;
+  margin-left: 16px;
+}
+
+.clr-btn {
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  color: #0967d2;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.active {
+  color: #0967d2;
+}
